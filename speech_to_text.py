@@ -7,7 +7,7 @@ r = sr.Recognizer()
 
 def record_text():
     """Loop in case of errors."""
-    while(1):
+    while (1):
         try:
             # Use the microphone as source for input
             with sr.Microphone() as source2:
@@ -28,7 +28,9 @@ def record_text():
 
         return
 
+
 def output_text(text):
+    """Create output file."""
     r = open("output.txt", "a")
     r.write(text)
     r.write("\n")
@@ -36,7 +38,7 @@ def output_text(text):
     return
 
 
-while(1):
+while (1):
     text = record_text()
     output_text(text)
 
