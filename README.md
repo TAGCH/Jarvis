@@ -6,7 +6,7 @@ This app was created as part of the **Generative AI & App Dev** course at Kasets
 
 ## Install and Run
 
-1. Installation : follow the step in [Installation](https://github.com/TAGCH/Javis/blob/main/Installation.md) 
+1. Installation : follow the step in [Installation](https://github.com/TAGCH/Jarvis/blob/main/Installation.md) 
 2. Running : run by typing this code in your terminal, cmd or powershell.
 ```
 python Jarvis.py
