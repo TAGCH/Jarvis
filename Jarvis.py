@@ -56,7 +56,7 @@ def send_to_chatGPT(messages, model="gpt-3.5-turbo"):
     return message
 
 
-messages = []
+messages = [{"role": "user", "content": "Please act like Javis from Iron man."}]
 send_to_chatGPT(messages)
 
 while (True):
