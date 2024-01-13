@@ -15,7 +15,7 @@ r = sr.Recognizer()
 
 def SpeakText(command):
     """Initialize the engine."""
-    engine = pyttsx3.init("nsss")
+    engine = pyttsx3.init("sapi5")
     engine.setProperty('rate', 125)
     engine.say(command)
     engine.runAndWait()
@@ -38,7 +38,7 @@ def record_text():
             print(f"Could not request results; {e}")
 
         except sr.UnknownValueError:
-            print("Unknow error occurred")
+            print("Unknown error occurred")
 
 
 def send_to_chatGPT(messages, model="gpt-3.5-turbo"):
