@@ -30,6 +30,10 @@ For Window.
 ```
 env\Scripts\activate.bat
 ```
+OR
+```
+.\env\Scripts\activate
+```
 
 - Install packages from requirements.txt
 
